@@ -7,10 +7,6 @@ Space robots are playing significant roles in the maintenance and repair of spac
 Where f1 and f2 are the two objective functions considered and w1 and w2 are the weights associated with them
 The main objective function is minimization of the distance between the robot and the destination space station. The minimal distance is calculated and given by the formula.
 # Distance D(x1,y1,x2,y2) =√(2&〖(x2-x1)〗^2+〖(y2-y1)〗^2 )
- 
-
-Secondly, the aim of time-optimal trajectory planning is the determination of the maximum velocity profile along a given path that complies with all given dynamic and kinematic robotic constraints. The motion of space robot can be denoted as a position vector, l, which starts from the starting point, p0, to the end point, pf, v is the velocity at that interval
-  # T= ∫_to^tf▒1/v ds,s Є[p0,pf]                                                           ….2
 
 # Particle velocity is calculated regarding the following formula
 Across x and y direction.
@@ -24,4 +20,12 @@ Based on this objective function and using the particle swarm optimization techn
 Based on the analysis of pso over a different range of size of the swarm particles considering all the conditions such as minimum acceleration by imposing velocity limit, then obstacle avoidance, the optimized result with quick trajectory path comes out to be for about 200-300 iterations with the swarm size of about ranging from 30-50 particles.
 
 # Implemented in Java using Applets for Animations
-
+Files List include
+Location.java
+Particle.java
+ProblemSet.java
+PSOConstants.java
+PSODriver.java
+PSOProcess.java
+PSOUtility.java
+Velocity.java
