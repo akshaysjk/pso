@@ -1,4 +1,4 @@
-# pso
+# Particle Swarm Optimization
 # A Simulated Model Multi Objective Optimal Trajectory Planning of Space Robot Using Particle Swarm Optimization
 
 Space robots are playing significant roles in the maintenance and repair of space station and satellites and other future space services. To obtain the high efficiency, safety motion trajectory of space robot, the motion trajectory should be optimized in advance. For space robot system, optimizing the motion path becomes an important problem to minimize multiple objectives simultaneously, such as minimizing the disturbances or avoidance of the obstacle, minimizing the acceleration such that robots move with a velocity constraint and minimizing the traveling time, and so on. Therefore, all these optimal objectives are considered together to build a multi-objective function and the results depend on the associated weighting factors. Here, I have considered two objective function first minimization disturbance of space robot to the space base and minimization traveling time of space robot.
