@@ -20,12 +20,3 @@ Based on this objective function and using the particle swarm optimization techn
 Based on the analysis of pso over a different range of size of the swarm particles considering all the conditions such as minimum acceleration by imposing velocity limit, then obstacle avoidance, the optimized result with quick trajectory path comes out to be for about 200-300 iterations with the swarm size of about ranging from 30-50 particles.
 
 # Implemented in Java using Applets for Animations
-Files List include
-Location.java
-Particle.java
-ProblemSet.java
-PSOConstants.java
-PSODriver.java
-PSOProcess.java
-PSOUtility.java
-Velocity.java
